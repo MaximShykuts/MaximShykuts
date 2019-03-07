@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #fffbfd;
+    height: 40px;
+    box-shadow: #6A6262 0 1px;
+}
+
+.menu {
+    height: 40px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 35%;
+}
+
+.menu li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px 14px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #6A6262;
+    text-transform: uppercase;
+}
+
+.menu li a:hover {
+    color: #2DA6A7;
+    transition: 0.1s ease;
+}
