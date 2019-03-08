@@ -1,0 +1,16 @@
+@import "background/background.css";
+
+
+section {
+    margin: auto;
+    height: 200px;
+    width: 100%;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    color: #1a1c1b;
+}
+
+

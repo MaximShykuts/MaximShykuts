@@ -37,3 +37,8 @@ header {
     color: #2DA6A7;
     transition: 0.1s ease;
 }
+
+.logo {
+    position: absolute;
+    margin-left: 25%;
+}
