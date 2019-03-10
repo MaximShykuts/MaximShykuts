@@ -3,14 +3,56 @@
 
 section {
     margin: auto;
-    height: 200px;
+    height: 300px;
     width: 100%;
+}
+
+article {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+h3 {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    color: #2DA6A7;
+    text-transform: uppercase;
 }
 
 p {
     font-family: Arial, sans-serif;
     font-size: 1rem;
     color: #1a1c1b;
+    padding: 5px 5px;
 }
+
+.big-font {
+    font-size: 2em;
+}
+
+.photo {
+    float: left;
+}
+
+.text-position-left {
+    text-align: center;
+}
+
+.photo-content {
+    position: relative;
+    margin:auto;
+    width: 70%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+
 
 

@@ -6,43 +6,52 @@
     box-sizing: border-box;
 }
 
-.background {
+.paralax {
     background-image: url("design_interior_brown.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: revert;
-    background-size: 100% 100%;
+    background-attachment: scroll;
+    background-size: cover;
     height: 900px;
-    opacity: 0.8;
+    margin: auto;
 }
 
 h2 {
     font-family: Arial, sans-serif;
     font-size: 2rem;
     color: #2DA6A7;
-    width: 900px;
-    position: absolute;
-    margin: 150px 500px;
 }
 
 p {
-    position: absolute;
     color: white;
-    margin: 250px 575px;
     font-family: Arial, sans-serif;
     font-size: 1rem;
-    width: 720px;
 }
 
 button {
-    position: absolute;
-    margin: 325px 1000px;
     font-size: 1rem;
     text-transform: uppercase;
     background-color: #2DA6A7;
-    width: 350px;
+    width: 300px;
     height: 50px;
     color: white;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.paralax-content {
+    position: absolute;
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    width: 100%;
+    max-height: border-box;
+    height: 400px;
+    text-align: center;
+    margin: 5% auto;
+    padding: 50px 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }

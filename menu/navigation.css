@@ -21,19 +21,19 @@ header {
     left: 35%;
 }
 
-.menu li {
+li {
     list-style-type: none;
     display: inline;
     padding: 10px 14px;
 }
 
-.menu li a {
+li a {
     text-decoration: none;
     color: #6A6262;
     text-transform: uppercase;
 }
 
-.menu li a:hover {
+li a:hover {
     color: #2DA6A7;
     transition: 0.1s ease;
 }
