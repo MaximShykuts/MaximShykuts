@@ -1,6 +1,5 @@
 @import "background/background.css";
 
-
 section {
     margin: auto;
     height: 300px;
@@ -29,6 +28,7 @@ p {
 }
 
 .big-font {
+    font-family: Calibri, sans-serif; ;
     font-size: 2em;
 }
 
