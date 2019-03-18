@@ -7,7 +7,7 @@
 }
 
 .paralax {
-    background-image: url("../gallery/apartment-1851201_1920.jpg");
+    background-image: url("../gallery/interior-main.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
@@ -43,7 +43,7 @@
     font-size: 1.5em;
     text-transform: uppercase;
     padding: 20px 20px;
-    color: #6A6262;
+    color: #000000;
 }
 
 .paralax button {

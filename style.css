@@ -7,47 +7,58 @@ section {
 }
 
 article {
-    width: 60%;
+    font-size: 2rem;
+    width: 50%;
     margin: auto;
     text-align: center;
     padding: 30px;
 }
 
-h3 {
+section article h2 {
     font-family: Arial, sans-serif;
     font-size: 1em;
-    color: #2DA6A7;
+    color: #000000;
     text-transform: uppercase;
+    padding: 20px 10px;
 }
 
-p {
+section article p {
     font-family: Arial, sans-serif;
-    font-size: 1rem;
+    font-size: 0.7em;
     color: #1a1c1b;
-    padding: 5px 5px;
+    padding: 10px 5px;
 }
 
-.big-font {
-    font-family: Calibri, sans-serif; ;
-    font-size: 2em;
+.link-border {
+    margin: auto;
+    width: 300px;
+    height: content-box;
+    border: 3px solid #2DA6A7;
 }
 
-.photo {
-    float: left;
+section article .link-border a {
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    color: #2DA6A7;
 }
 
-.text-position-left {
-    text-align: center;
+section article picture img {
+    max-width: content-box;
+    max-height: content-box;
+    width: 100%;
+    height: 100%;
 }
 
-.photo-content {
-    position: relative;
-    margin:auto;
-    width: 70%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+.background-parallax-container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("gallery/footer.jpg");
+    background-repeat: no-repeat;
+    background-attachment: revert;
+    background-size: 100%;
+    opacity: 0.5;
 }
 
 
