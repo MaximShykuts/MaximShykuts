@@ -7,7 +7,7 @@
 header {
     background-color: #fffbfd;
     height: 40px;
-    box-shadow: #6A6262 0 1px;
+    border-bottom: 1px solid black;
 }
 
 .menu {
