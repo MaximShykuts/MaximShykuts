@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Revolt</title>
+    <title>Дизайн интерьера квартир</title>
     <link rel="stylesheet" href="style.css">
-    
+
+    <link type="text/css" rel="stylesheet" href="library/slider/style.css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="library/slider/script.js"></script>
+
 </head>
 <body>
   <header>
@@ -47,13 +51,11 @@
               офис по последнему слову техники или уникальный интерьер салона красоты.
           </p>
           <picture>
-
-              <div id="featured">
-                  <img src="gallery/plan-level-first.jpg" alt="Link" />
-                  <img src="gallery/plan-second.jpg" alt="kitchen" rel="ezioCaption" />
-                  <img src="gallery/plan-third.jpg" alt="Master Chief" />
+              <div id="slider" class="slider_wrap">
+                  <img src="gallery/plan-level-first.jpg" alt="plan-kitchen-first" />
+                  <img src="gallery/plan-second.jpg" alt="plan-kitchen-second"  />
+                  <img src="gallery/gallary-page/plan-fourth.jpg" alt="plan-kitchen-third" />
               </div>
-
           </picture>
       </article>
       <article class="background-parallax-container">
@@ -82,11 +84,8 @@
               <p><em>Наталья</em></p>
               <p><em>г. Минск, ул. Скрипникова</em></p>
           </div>
-          <picture class="girl-gallery">
-              <img src="gallery/girl-design-first.jpg">
-              <img src="gallery/girl-design-second.jpg">
-              <img src="gallery/girl-design-third.jpg">
-          </picture>
+
+
       </article>
       <article>
           <h2>почему 83,7% наших клиентов обратились к нам по рекомендациям</h2>
