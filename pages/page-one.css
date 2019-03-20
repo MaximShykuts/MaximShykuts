@@ -1,0 +1,75 @@
+@import "../menu/navigation.css";
+
+.price-list {
+    height: 150vh;
+    font-size: 2rem;
+    background-color: #EEEEEE;
+}
+
+.price-list .price-list-content {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.price-list .price-list-content h1 {
+    font-size: 2.5rem;
+    color: #2DA6A7;
+    text-align: center;
+}
+
+.price-list .price-list-content .price-list-card {
+    width: 300px;
+    height: content-box;
+    border: 2px solid #6A6262;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    margin: 20px 40px;
+    float: left;
+}
+
+.price-list .price-list-content .price-list-card .price-list-card-content {
+    text-align: left;
+    padding: 10px 30px;
+}
+
+.price-list .price-list-content .price-list-card .price-list-card-content h2 {
+    text-align: center;
+    font-size: 1em;
+}
+
+.price-list .price-list-content .price-list-card .price-list-card-content .price {
+    text-align: center;
+    color: #2DA6A7;
+    font-size: 1em;
+}
+
+.price-list .price-list-content .price-list-card .price-list-card-content p {
+    font-size: 0.6em;
+}
+
+.price-list .price-list-content .price-list-card .price-list-card-content h3 {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.price-list .price-list-content .price-list-card:hover {
+    border: 3px solid #2DA6A7;
+    box-shadow: 0 0 10px #6A6262;
+}
+
+body footer {
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    background-image: url("../gallery/footer-first.jpg");
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 100%;
+    padding: 100px;
+    margin-bottom: 0;
+}
+
+footer .footer-content {
+    font-size: medium;
+}
