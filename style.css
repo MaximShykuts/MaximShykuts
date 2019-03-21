@@ -116,10 +116,6 @@ section article picture img {
      float: left;
  }
 
- article .girl-gallery {
-
- }
-
  article .girl-gallery img {
      cursor: pointer;
      width: 300px;
@@ -196,17 +192,15 @@ article .box-card-second:hover {
 }
 
 article picture .img-second {
-    max-width: 500px;
+    max-width: 400px;
     width: 100%;
-    max-height: 900px;
+    max-height: 800px;
     height: 100%;
-    float: right;
 }
 
 section picture .content-second {
     margin: 0 auto;
-    text-align: center;
-    float: right;
+    text-align: left;
 }
 
 footer {

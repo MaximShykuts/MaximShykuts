@@ -13,6 +13,7 @@
 }
 
 .price-list .price-list-content h1 {
+    margin: 40px auto;
     font-size: 2.5rem;
     color: #2DA6A7;
     text-align: center;

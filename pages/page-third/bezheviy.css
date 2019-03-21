@@ -18,11 +18,10 @@ h1 {
     color: #6A6262;
     text-align: center;
     width: 700px;
-    top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    margin: auto;
+    margin: 50px auto;
 }
 
 p {
